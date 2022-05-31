@@ -1,0 +1,223 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+:root {
+    --background: #F8F8ED;
+    --dark-green: #909e8c;
+    --light-green: #c7cf93;
+    --brown: #c7b497;
+    --creamy: #ebebda;
+    --yellow: #ffedb0;
+}
+
+body {
+    background-color: var(--background);
+    max-width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+/* Nav Bar */
+
+.nav-container {
+    height: 5em;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: var(--background);
+    box-shadow: 0px 3px 6px 1px #babab3;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav-container h1 {
+    font-size: 3em;
+
+}
+
+.links-div {
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    text-align: center;
+}
+
+.nav-buttons {
+    align-items: center;
+}
+.nav-buttons a:hover {
+    width: 100px;
+    height: 2em;
+    box-shadow: 1px 1px 1px 1px #c7b497;
+    background-color: var(--background);
+    border-radius: 20px 20px 20px 20px;
+    display: block;
+    align-items: center;
+
+
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: black;
+    font-family: ltc-caslon-pro, serif;
+    font-weight: 400;
+    font-size: .8em;
+    font-style: normal;
+    position: relative;
+    align-content: center;
+    top: 4px;
+
+}
+
+
+
+/* Welcome Section */
+
+#welcome-section {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0;
+}
+
+
+.circle1 {
+    width: 563.91px;
+    height: 539.06px;
+    position: relative;
+    bottom: 8em;
+    left: 11em;
+    z-index: 0;
+}
+
+.circle2 {
+    width: 620px;
+    height: 600px;
+    position: absolute;
+    left: 63em;
+    top: 5em;
+    overflow: hidden;
+}
+
+#welcome-section h1 {
+    font-family: ltc-caslon-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4em;
+    position: relative;
+    bottom: 4em;
+    text-align: center;
+    line-height: 80px;
+}
+
+.altfont {
+    font-family: marigny, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+.altfontsub {
+    font-family: marigny, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 30px
+
+
+}
+
+
+/* About Me Section
+
+#about-me {
+    position: relative;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--dark-green);
+   
+}
+
+.aboutme-circle1 {
+    width: 475px;
+    height: 500.30px;
+    position: relative;
+    right: 5em;
+    top: 5em;
+}
+
+.aboutme-circle2 {
+    width: 525px;
+    height: 450px;
+    position: absolute;
+    left: .2rem;
+    bottom: -41rem;
+    transform: rotate(280deg);
+    margin: 0;
+}
+
+h2.subheading {
+    font-family: ltc-caslon-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    left: 24em;
+    bottom: 19em;
+}
+.imgofme-container {
+    background-color: var(--light-green);
+    width: 450px;
+    height: 520px;
+    position: relative;
+    float: right;
+    bottom: 38em;
+    right: 3em;
+}
+
+.about-text {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    bottom: 25em;
+    left: 27em;
+
+}
+
+.about-text p {
+    font-family: cabrito-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* Skills Section */
+
+#skills {
+    margin-top: 2px;
+    height: 40em;
+    background-color: var(--yellow);
+}
+
+
+
+
+/* Project Section */
+
+.project-circle1 {
+    width: 475px;
+    height: 500.30px;
+}
+
+.project-circle2 {
+    width: 475px;
+    height: 500.30px;
+} 
